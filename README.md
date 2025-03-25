@@ -22,7 +22,7 @@ QuantumView takes a quantum leap forward:
 
 > ⚠️ This project is currently in early development. The core streaming functionality works, but the API is not yet stable.
 
-### What Works Now
+### What Works Now (Kind of)
 - ✅ Real-time browser streaming via WebSocket
 - ✅ Bidirectional communication
 - ✅ Navigation support (including back/forward)
