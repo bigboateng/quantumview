@@ -4,6 +4,11 @@
 
 QuantumView brings real-time browser streaming to Playwright, enabling simultaneous observation and control without affecting the automation state - like quantum observation without collapse. Stream browser interactions and page changes in real-time between a Playwright instance and a client, maintaining perfect sync with your automation.
 
+
+https://github.com/user-attachments/assets/5664b4d3-458d-403a-ae7b-d97e006ecc0d
+
+
+
 ## Why QuantumView?
 
 Live streaming for Playwright exists, but it often comes with significant tradeoffs:
