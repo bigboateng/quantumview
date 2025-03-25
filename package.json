@@ -1,0 +1,44 @@
+{
+  "name": "quantumview",
+  "version": "0.1.0",
+  "description": "Real-time browser automation streaming with quantum-like observation capabilities",
+  "main": "dist/streaming.js",
+  "types": "dist/streaming.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "playwright",
+    "streaming",
+    "automation",
+    "browser",
+    "websocket",
+    "typescript",
+    "monitoring",
+    "debugging",
+    "real-time",
+    "quantum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "@types/ws": "^8.5.10",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "playwright": "^1.40.1",
+    "ws": "^8.15.1"
+  },
+  "peerDependencies": {
+    "playwright": "^1.40.0",
+    "ws": "^8.0.0"
+  }
+}
